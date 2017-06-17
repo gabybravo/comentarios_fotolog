@@ -6,6 +6,7 @@ body {
 header {
   margin-top: 20px;
 }
+
 img {
   width: 100%;
   margin-bottom: 30px;
@@ -20,16 +21,19 @@ a {
 #bannerflog img {
   height: 100px;
 }
-h1, p{
+
+h1, p {
   color: DeepPink ;
 }
-h1{
+
+h1 {
   font-size: 50px;
   font-weight: bolder;
 }
 
-textarea, input{
+textarea, input {
   width: 100%;
+  padding: 5px 0;
   border-radius: 0px;
   border: 1px solid DeepPink;
   margin-bottom: 20px;
@@ -38,13 +42,17 @@ textarea, input{
 .posteo {
   color: DeepPink;
 }
-.posteo strong{
+
+.posteo strong {
   display: block;
 }
+
 .posteo hr {
   border: 1px solid DeepPink;
 }
+
 /* PARA CORAZON */
+
 .corazon {
   font-size: 40px;
   color: gray;
@@ -53,11 +61,51 @@ textarea, input{
 .rojo {
   color: red;
 }
-footer{
+footer {
   padding: 10px;
 }
 
+/* Comentarios y Botones */
+
+.form1 {
+  color: #7E7E7E;
+  font-size: 16px;
+}
+
+.boxy {
+  background-color: #FF9CE3;
+  padding: 20px;
+  border-radius: 1.08em;
+  margin: 10px 0;
+}
+
+.encabezado {
+  font-size: 16px;  
+  color: #FD0083;
+  text-transform: uppercase;
+}
+
+.comentario {
+  color: white;
+  font-size: 12px;
+}
+
+.botones-style {
+  background-color: #EE97C3;
+  border-radius: 0;
+  border: none;
+}
+
+.botones-style:hover{
+  background-color: #C1799D;
+  border-radius: 0;
+  border: none;
+}
+
+.botones-style:active,
+.botones-style:focus{
+  background-color: #E84498;
+}
 
 
-/* Estilos comentarios */
 
