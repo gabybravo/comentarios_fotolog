@@ -51,32 +51,22 @@ textarea, input {
   border: 1px solid DeepPink;
 }
 
-/* PARA CORAZON */
-
-.corazon {
-  font-size: 40px;
-  color: gray;
-  text-align: center;
-}
-.rojo {
-  color: red;
-}
 footer {
-  padding: 10px;
+  padding: 0px;
 }
 
 /* Comentarios y Botones */
 
 .form1 {
-  color: #7E7E7E;
+  color: DeepPink;
   font-size: 16px;
 }
 
 .boxy {
-  background-color: #FF9CE3;
-  padding: 20px;
-  border-radius: 1.08em;
-  margin: 10px 0;
+  background-color: #FFC7EF;
+  padding: 15px;
+  border-radius: 0.9em;
+  margin: 10px 5px;
 }
 
 .encabezado {
@@ -91,20 +81,20 @@ footer {
 }
 
 .botones-style {
-  background-color: #EE97C3;
+  background-color: DeepPink;
   border-radius: 0;
   border: none;
 }
 
 .botones-style:hover{
-  background-color: #C1799D;
+  background-color: #E7ABC9;
   border-radius: 0;
   border: none;
 }
 
 .botones-style:active,
 .botones-style:focus{
-  background-color: #E84498;
+  background-color: #D7629E;
 }
 
 
